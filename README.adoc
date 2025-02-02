@@ -1,0 +1,43 @@
+# Asteroids Game
+
+## Project Goal
+Develop a game inspired by [Asteroids](https://en.wikipedia.org/wiki/Asteroids) using the [Macroquad](https://macroquad.rs/) library.
+
+## About
+- Project developed with [Lynda KHAZEM](https://github.com/Lyndakhazem) as part of the ProgEfficace (IN512) course in the third year of the Computer Science license program at UVSQ.
+- Managed with [Cargo](https://doc.rust-lang.org/cargo/).
+- The `main.rs` file handles rendering and interactions.
+- Game objects (spaceship, asteroids, missiles) are managed in separate modules.
+
+## Game Features
+- Round objects to simplify collision handling.
+- Asteroids move at a constant, randomly determined speed.
+- The spaceship is controlled by the player with inertia and shield management.
+- Screen looping: exiting one side re-enters on the opposite side.
+- Missiles destroy or split asteroids.
+- End conditions:
+  - Defeat if the spaceship is destroyed.
+  - Victory if all asteroids are eliminated.
+  - Quit by pressing `Escape`.
+
+## Development Phases
+1. **Asteroid Management**: multiple asteroids, different sizes, splitting upon collision.
+2. **Spaceship Addition**: rendering, keyboard controls with arrow keys, collision management.
+3. **Missile Implementation**: shooting (`Space`), rendering, asteroid collision handling.
+4. **Optimization and Refactoring**: creating a `StellarObject` [trait](https://doc.rust-lang.org/book/ch10-02-traits.html) to unify common behaviors.
+
+## Demo
+```bash
+# Clone the project
+git clone https://github.com/machterMassi06/asteroid_game
+cd asteroid_game
+
+# Generate documentation (HTML page for the application)
+cargo doc --open
+
+# Run unit tests
+cargo test
+
+# Compile and run the game
+cargo run
+```
