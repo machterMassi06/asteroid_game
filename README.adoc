@@ -1,7 +1,7 @@
 # Asteroids Game
 
 ## Project Goal
-Develop a game inspired by https://en.wikipedia.org/wiki/Asteroids[Asteroids] using the https://macroquad.rs/[Macroquad] library.
+Develop a game inspired by https://en.wikipedia.org/wiki/Asteroids_(video_game)[Asteroids] using the https://macroquad.rs/[Macroquad] library.
 
 ## About
 - Project developed with https://github.com/Lyndakhazem[Lynda KHAZEM] as part of the ProgEfficace (IN512) course in the third year of the Computer Science license program at UVSQ.
