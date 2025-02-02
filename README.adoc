@@ -1,11 +1,11 @@
 # Asteroids Game
 
 ## Project Goal
-Develop a game inspired by [Asteroids](https://en.wikipedia.org/wiki/Asteroids) using the [Macroquad](https://macroquad.rs/) library.
+Develop a game inspired by https://en.wikipedia.org/wiki/Asteroids[Asteroids] using the https://macroquad.rs/[Macroquad] library.
 
 ## About
-- Project developed with [Lynda KHAZEM](https://github.com/Lyndakhazem) as part of the ProgEfficace (IN512) course in the third year of the Computer Science license program at UVSQ.
-- Managed with [Cargo](https://doc.rust-lang.org/cargo/).
+- Project developed with https://github.com/Lyndakhazem[Lynda KHAZEM] as part of the ProgEfficace (IN512) course in the third year of the Computer Science license program at UVSQ.
+- Managed with https://doc.rust-lang.org/cargo/[Cargo].
 - The `main.rs` file handles rendering and interactions.
 - Game objects (spaceship, asteroids, missiles) are managed in separate modules.
 
@@ -24,7 +24,7 @@ Develop a game inspired by [Asteroids](https://en.wikipedia.org/wiki/Asteroids) 
 1. **Asteroid Management**: multiple asteroids, different sizes, splitting upon collision.
 2. **Spaceship Addition**: rendering, keyboard controls with arrow keys, collision management.
 3. **Missile Implementation**: shooting (`Space`), rendering, asteroid collision handling.
-4. **Optimization and Refactoring**: creating a `StellarObject` [trait](https://doc.rust-lang.org/book/ch10-02-traits.html) to unify common behaviors.
+4. **Optimization and Refactoring**: creating a `StellarObject` https://doc.rust-lang.org/book/ch10-02-traits.html[trait] to unify common behaviors.
 
 ## Demo
 ```bash
