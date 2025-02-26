@@ -40,9 +40,10 @@ cargo doc --open
 // Run unit tests
 cargo test
 ```
-https://github.com/user-attachments/assets/cb9f95ee-a979-4c05-898d-01a8c0ed144d
+
 ```bash
 // Compile and run the game
 cargo run
 ```
+https://github.com/user-attachments/assets/cb9f95ee-a979-4c05-898d-01a8c0ed144d
 
