@@ -28,16 +28,21 @@ Develop a game inspired by https://en.wikipedia.org/wiki/Asteroids_(video_game)[
 
 ## Demo
 ```bash
-# Clone the project
+// Clone the project
 git clone https://github.com/machterMassi06/asteroid_game
 cd asteroid_game
-
-# Generate documentation (HTML page for the application)
+```
+```bash
+//Generate documentation (HTML page for the application)
 cargo doc --open
-
-# Run unit tests
+```
+```bash
+// Run unit tests
 cargo test
-
-# Compile and run the game
+```
+https://github.com/user-attachments/assets/cb9f95ee-a979-4c05-898d-01a8c0ed144d
+```bash
+// Compile and run the game
 cargo run
 ```
+
